@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Auth</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,500,600,700,800,900" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="_container">
+            <div class="auth__body"> 
+                <div class="auth__titile">Авторизация</div>
+                <div class="auth__input">
+                    <label>Введите Ваш логин</label>
+                    <input type="text" name="auth_login" id="login">
+                </div>
+                <div class="auth__input">
+                    <label>Введите Ваш пароль</label>
+                    <input type="password" name="auth_pass" id="pass">
+                </div>
+                <div class="auth__btns">
+                    <button class="auth_btn btn_auth" type="submit" name="form_auth_submit" id="auth" onclick="auth()">Войти</button>
+                    <button class="auth_btn btn_reg" type="submit" name="form_auth_submit" id="reg">Регистарция</button>
+                </div>
+                <h3 class="auth__status" id="status"></h3>
+            </div>
+        </div>
+    <script src='auth.js'></script>
+</body>
+</html>
