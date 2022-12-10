@@ -92,3 +92,63 @@ body {
 .auth__status {
     color: #ff4437;
 }
+
+.task {
+    padding: 120px 0px 0px 0px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.que {
+    font-size: 48px;
+    font-weight: 800;
+    color: #252b42;
+}
+
+.btn {
+    border-radius: 37px;
+    position: relative;
+    min-height: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 40px;
+    letter-spacing: 0.2;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+    background-color: #c0c0c0;
+}
+
+.btn:hover {
+    background-color: #797979;
+}
+
+#task_2,
+#task_3,
+#task_4,
+#task_5,
+#task_6,
+#task_7,
+#task_8,
+#task_9,
+#task_10 {
+    display: none;
+}
+
+.photo {
+    max-width: 600px;
+}
+
+.title {
+    font-size: 58px;
+    font-weight: 800;
+    color: #252b42;
+    border-bottom: 3px solid #252b42;
+}
+
+.description {
+    line-height: 150%;
+    text-align: center;
+}

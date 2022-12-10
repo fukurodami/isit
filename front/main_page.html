@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <script type="text/javascript" src="eel.js"></script>
+</head>
+<body>
+    <div class="task" id="task_1">
+        <div class="que">После работы вы предпочитаете выпить...</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Кофе', 1)">Кофе</button><br>
+            <button type="submit" class="btn" onclick="task('Чай', 1)">Чай</button><br>
+            <button type="submit" class="btn" onclick="task('Вино', 1)">Вино</button><br>
+            <button type="submit" class="btn" onclick="task('Виски', 1)">Виски</button><br>
+            <button type="submit" class="btn" onclick="task('Пиво', 1)">Пиво</button>
+        </div>
+    </div>
+    <div class="task" id="task_2">
+        <div class="que">Если бы вы могли выбрать любое "идеальное" для себя место для жизни, это был бы...</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Пляж', 2)">Пляж</button><br>
+            <button type="submit" class="btn" onclick="task('Горы', 2)">Горы</button><br>
+            <button type="submit" class="btn" onclick="task('Луг', 2)">Луг</button><br>
+            <button type="submit" class="btn" onclick="task('Снежные горы', 2)">Снежные горы</button><br>
+            <button type="submit" class="btn" onclick="task('Скальный берег', 2)">Скальный берег</button>
+        </div>
+    </div>
+    <div class="task" id="task_3">
+        <div class="que">Ваше любимое увлечение?</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Пить и такнцевать', 3)">Пить и такнцевать</button><br>
+            <button type="submit" class="btn" onclick="task('Читать', 3)">Читать</button><br>
+            <button type="submit" class="btn" onclick="task('Шоппинг', 3)">Шоппинг</button><br>
+            <button type="submit" class="btn" onclick="task('Гулять на природе', 3)">Гулять на природе</button><br>
+            <button type="submit" class="btn" onclick="task('Погружаться в историю', 3)">Погружаться в историю</button>
+        </div>
+    </div>
+    <div class="task" id="task_4">
+        <div class="que">На какие темы вы чаще всего размышляете?</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Искусство', 4)">Искусство</button><br>
+            <button type="submit" class="btn" onclick="task('Путешествия', 4)">Путешествия</button><br>
+            <button type="submit" class="btn" onclick="task('Любовь', 4)">Любовь</button><br>
+            <button type="submit" class="btn" onclick="task('Духовность', 4)">Духовность</button><br>
+            <button type="submit" class="btn" onclick="task('Философия', 4)">Философия</button>
+        </div>
+    </div>
+    <div class="task" id="task_5">
+        <div class="que">Какое прилагательное описывает вас лучше всего?</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Веселый', 5)">Веселый</button><br>
+            <button type="submit" class="btn" onclick="task('Артистичный', 5)">Артистичный</button><br>
+            <button type="submit" class="btn" onclick="task('Интеллектуальный', 5)">Интеллектуальный</button><br>
+            <button type="submit" class="btn" onclick="task('Влюбчивый', 5)">Влюбчивый</button><br>
+            <button type="submit" class="btn" onclick="task('Духовный', 5)">Духовный</button>
+        </div>
+    </div>
+    <div class="task" id="task_6">
+        <div class="que">Какой из этих видов деятельности привлекает вас больше всего?</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Прогулка по городу', 6)">Прогулка по городу</button><br>
+            <button type="submit" class="btn" onclick="task('Наслождение книгой', 6)">Наслождение книгой</button><br>
+            <button type="submit" class="btn" onclick="task('Выбраться в горы', 6)">Выбраться в горы</button><br>
+            <button type="submit" class="btn" onclick="task('Ужин в ресторане', 6)">Ужин в ресторане</button><br>
+            <button type="submit" class="btn" onclick="task('Отдых на теплых водах', 6)">Отдых на теплых водах</button>
+        </div>
+    </div>
+    <div class="task" id="task_7">
+        <div class="que">Если бы вы выиграли в лотерею большую сумму денег, вы бы...</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Купили бы квартиру и автомобиль', 7)">Купили бы квартиру и автомобиль</button><br>
+            <button type="submit" class="btn" onclick="task('Купили бы виллу у моря', 7)">Купили бы виллу у моря</button><br>
+            <button type="submit" class="btn" onclick="task('Открыли бы винодельню', 7)">Открыли бы винодельню</button><br>
+            <button type="submit" class="btn" onclick="task('Купили бы дом с большим садом', 7)">Купили бы дом с большим садом</button><br>
+            <button type="submit" class="btn" onclick="task('Уехали смотреть весь мир', 7)">Уехали смотреть весь мир</button>
+        </div>
+    </div>
+    <div class="task" id="task_8">
+        <div class="que">Какое из этих блюд нравится вам больше всего?</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Филе лосося в сливочном соусе со свежими каперсами и макаронами', 8)">Филе лосося в сливочном соусе со свежими каперсами и макаронами</button><br>
+            <button type="submit" class="btn" onclick="task('Устрицы, кальмары и осьминоги', 8)">Устрицы, кальмары и осьминоги</button><br>
+            <button type="submit" class="btn" onclick="task('Драники', 8)">Драники</button><br>
+            <button type="submit" class="btn" onclick="task('Свинина тушеная в пиве, пряные бобы и рис', 8)">Свинина тушеная в пиве, пряные бобы и рис</button><br>
+            <button type="submit" class="btn" onclick="task('Салат из овощей', 8)">Салат из овощей</button>
+        </div>
+    </div>
+    <div class="task" id="task_9">
+        <div class="que">Если бы вы могли описать свою жизнь одним словом, то это звучало бы примерно так:</div>
+        <div class="btns">
+            <button type="submit" class="btn" onclick="task('Жизнь - это искусство', 9)">Жизнь - это искусство</button><br>
+            <button type="submit" class="btn" onclick="task('Жизнь - это вечеринка', 9)">Жизнь - это вечеринка</button><br>
+            <button type="submit" class="btn" onclick="task('Жизнь - это духовное познание', 9)">Жизнь - это духовное познание</button><br>
+            <button type="submit" class="btn" onclick="task('Жизнь - это приключение', 9)">Жизнь - это приключение</button><br>
+            <button type="submit" class="btn" onclick="task('Жизнь - это семья и близкие', 9)">Жизнь - это семья и близкие</button>
+        </div>
+    </div>
+    <div class="task" id="task_10">
+        <img class="photo" id="photo_count" src="" />
+        <div class="title" id="title_count"></div>
+        <div class="description" id="desc_count"></div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>
